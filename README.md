@@ -1,10 +1,10 @@
 # TQueue
 
-> Android 可以任意切换线程的任务队列, TQueue
+> 一个Android开发库, 可以任意切换线程的链式调用任务队列, 可添加定时, 延时任务, 统一异常处理(Ceased中断),但不影响整个任务链的运行.
 
-> 思路借鉴自AndroidOperationQueue.
+> 思路借鉴自AndroidOperationQueue. 地址如下: https://github.com/skyfe79/AndroidOperationQueue
 
-> 地址如下: https://github.com/skyfe79/AndroidOperationQueue
+### 具体用法如下:
 
 ```java
 TQueue.queue("TQueue").on(new Doable() {
