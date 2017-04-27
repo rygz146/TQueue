@@ -4,7 +4,7 @@
 
 > 思路借鉴自AndroidOperationQueue.
 
-> 地址如下: https://github.com/skyfe79/AndroidOperationQueue.git
+> 地址如下: https://github.com/skyfe79/AndroidOperationQueue
 
 ```java
 TQueue.queue("TQueue").on(new Doable() {
